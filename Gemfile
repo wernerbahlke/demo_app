@@ -4,6 +4,7 @@ gem 'rails', '3.2.1'
 
 group :development do
   gem 'sqlite3', '1.3.5'
+  gem 'mysql2'
 end
 
 
@@ -16,7 +17,7 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails'
 
 group :production do
   gem 'pg', '0.12.2'
